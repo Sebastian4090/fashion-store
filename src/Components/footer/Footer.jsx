@@ -22,11 +22,6 @@ const Footer = () => {
                 href="https://www.freepik.com/free-photo/white-t-shirt-men-s-basic-wear-full-body_17165425.htm#query=smiling%20man%20shirt%20fullbody&position=1&from_view=search&track=ais">
                     Image by rawpixel.com</a> on Freepik</p>
             </ul>
-            <div className="footer-social-icon">
-                <div className="footer-icons-container">
-                    <img src='' alt=''/>
-                </div>
-            </div>
             <div className='footer-copyright'>
                 <hr/>
                 <p>Copyright @ {new Date().getFullYear()} - All Rights Reserved</p>

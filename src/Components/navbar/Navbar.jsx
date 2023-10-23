@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li onClick={()=>{setMenu('all')}}
                     onMouseEnter={()=>setHover('allH')}
                     onMouseLeave={()=>setHover('')}>
-                    <Link style={{ textDecoration: 'none'}} to='/'>All</Link>{menu==="all"||hover==='allH'?<hr/>:<></>}</li>
+                    <Link style={{ textDecoration: 'none'}} to='/'>Main</Link>{menu==="all"||hover==='allH'?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu('men')}}
                     onMouseEnter={()=>setHover('menH')}
                     onMouseLeave={()=>setHover('')}>
