@@ -1,0 +1,40 @@
+.store-category-banner{
+    height: 100vh;
+    background: linear-gradient(180deg, #7BE1DD, #e1ffea22 60%);
+    display: flex;
+}
+
+.store-category-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.store-category-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.store-category-left p{
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.store-category-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.store-category-right img{
+    width: 75%;
+    height: auto;
+    margin-left: -25%;
+}
