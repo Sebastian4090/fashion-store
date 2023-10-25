@@ -51,7 +51,7 @@ let all_products = [
     }, 
     {
         id: 2,
-        name: "Placeholder 1",
+        name: "Placeholder 2",
         category: "kids",
         image: k2_img,
         new_price: 46.00,
@@ -59,7 +59,7 @@ let all_products = [
     }, 
     {
         id: 3,
-        name: "Placeholder 1",
+        name: "Placeholder 3",
         category: "kids",
         image: k3_img,
         new_price: 46.00,
@@ -67,7 +67,7 @@ let all_products = [
     }, 
     {
         id: 4,
-        name: "Placeholder 1",
+        name: "Placeholder 4",
         category: "kids",
         image: k4_img,
         new_price: 46.00,
@@ -75,7 +75,7 @@ let all_products = [
     }, 
     {
         id: 5,
-        name: "Placeholder 1",
+        name: "Placeholder 5",
         category: "kids",
         image: k5_img,
         new_price: 46.00,
@@ -83,7 +83,7 @@ let all_products = [
     }, 
     {
         id: 6,
-        name: "Placeholder 1",
+        name: "Placeholder 6",
         category: "men",
         image: m1_img,
         new_price: 46.00,
@@ -91,7 +91,7 @@ let all_products = [
     }, 
     {
         id: 7,
-        name: "Placeholder 1",
+        name: "Placeholder 7",
         category: "men",
         image: m2_img,
         new_price: 46.00,
@@ -99,7 +99,7 @@ let all_products = [
     }, 
     {
         id: 8,
-        name: "Placeholder 1",
+        name: "Placeholder 8",
         category: "men",
         image: m3_img,
         new_price: 46.00,
@@ -107,7 +107,7 @@ let all_products = [
     }, 
     {
         id: 9,
-        name: "Placeholder 1",
+        name: "Placeholder 9",
         category: "men",
         image: m4_img,
         new_price: 46.00,
@@ -115,7 +115,7 @@ let all_products = [
     }, 
     {
         id: 10,
-        name: "Placeholder 1",
+        name: "Placeholder 10",
         category: "men",
         image: m5_img,
         new_price: 46.00,
@@ -123,7 +123,7 @@ let all_products = [
     }, 
     {
         id: 11,
-        name: "Placeholder 1",
+        name: "Placeholder 11",
         category: "men",
         image: m6_img,
         new_price: 46.00,
@@ -131,7 +131,7 @@ let all_products = [
     }, 
     {
         id: 12,
-        name: "Placeholder 1",
+        name: "Placeholder 12",
         category: "men",
         image: m7_img,
         new_price: 46.00,
@@ -139,7 +139,7 @@ let all_products = [
     }, 
     {
         id: 13,
-        name: "Placeholder 1",
+        name: "Placeholder 13",
         category: "men",
         image: m8_img,
         new_price: 46.00,
@@ -147,7 +147,7 @@ let all_products = [
     }, 
     {
         id: 14,
-        name: "Placeholder 1",
+        name: "Placeholder 14",
         category: "men",
         image: m9_img,
         new_price: 46.00,
@@ -155,7 +155,7 @@ let all_products = [
     }, 
     {
         id: 15,
-        name: "Placeholder 1",
+        name: "Placeholder 15",
         category: "men",
         image: m10_img,
         new_price: 46.00,
@@ -163,7 +163,7 @@ let all_products = [
     }, 
     {
         id: 16,
-        name: "Placeholder 1",
+        name: "Placeholder 16",
         category: "men",
         image: m11_img,
         new_price: 46.00,
@@ -171,7 +171,7 @@ let all_products = [
     },
     {
         id: 17,
-        name: "Placeholder 1",
+        name: "Placeholder 17",
         category: "men",
         image: m12_img,
         new_price: 46.00,
@@ -179,7 +179,7 @@ let all_products = [
     }, 
     {
         id: 18,
-        name: "Placeholder 1",
+        name: "Placeholder 18",
         category: "men",
         image: m13_img,
         new_price: 46.00,
@@ -187,15 +187,15 @@ let all_products = [
     }, 
     {
         id: 19,
-        name: "Placeholder 1",
-        category: "men",
+        name: "Placeholder 19",
+        category: "women",
         image: m14_img,
         new_price: 46.00,
         old_price: 92.00
     },  
     {
         id: 20,
-        name: "Placeholder 1",
+        name: "Placeholder 20",
         category: "women",
         image: w1_img,
         new_price: 46.00,
@@ -203,7 +203,7 @@ let all_products = [
     },
     {
         id: 21,
-        name: "Placeholder 1",
+        name: "Placeholder 21",
         category: "women",
         image: w2_img,
         new_price: 46.00,
@@ -211,7 +211,7 @@ let all_products = [
     }, 
     {
         id: 22,
-        name: "Placeholder 1",
+        name: "Placeholder 22",
         category: "women",
         image: w3_img,
         new_price: 46.00,
@@ -219,7 +219,7 @@ let all_products = [
     }, 
     {
         id: 23,
-        name: "Placeholder 1",
+        name: "Placeholder 23",
         category: "women",
         image: w4_img,
         new_price: 46.00,
@@ -227,7 +227,7 @@ let all_products = [
     }, 
     {
         id: 24,
-        name: "Placeholder 1",
+        name: "Placeholder 24",
         category: "women",
         image: w5_img,
         new_price: 46.00,
@@ -235,7 +235,7 @@ let all_products = [
     }, 
     {
         id: 25,
-        name: "Placeholder 1",
+        name: "Placeholder 25",
         category: "women",
         image: w6_img,
         new_price: 46.00,
@@ -243,7 +243,7 @@ let all_products = [
     }, 
     {
         id: 26,
-        name: "Placeholder 1",
+        name: "Placeholder 26",
         category: "women",
         image: w7_img,
         new_price: 46.00,
@@ -251,7 +251,7 @@ let all_products = [
     }, 
     {
         id: 27,
-        name: "Placeholder 1",
+        name: "Placeholder 27",
         category: "women",
         image: w8_img,
         new_price: 46.00,
@@ -259,7 +259,7 @@ let all_products = [
     }, 
     {
         id: 28,
-        name: "Placeholder 1",
+        name: "Placeholder 28",
         category: "women",
         image: w9_img,
         new_price: 46.00,
@@ -267,7 +267,7 @@ let all_products = [
     }, 
     {
         id: 29,
-        name: "Placeholder 1",
+        name: "Placeholder 29",
         category: "women",
         image: w10_img,
         new_price: 46.00,
@@ -275,7 +275,7 @@ let all_products = [
     }, 
     {
         id: 30,
-        name: "Placeholder 1",
+        name: "Placeholder 30",
         category: "women",
         image: w11_img,
         new_price: 46.00,
@@ -283,7 +283,7 @@ let all_products = [
     }, 
     {
         id: 31,
-        name: "Placeholder 1",
+        name: "Placeholder 31",
         category: "women",
         image: w12_img,
         new_price: 46.00,
@@ -291,7 +291,7 @@ let all_products = [
     }, 
     {
         id: 32,
-        name: "Placeholder 1",
+        name: "Placeholder 32",
         category: "women",
         image: w13_img,
         new_price: 46.00,
@@ -299,7 +299,7 @@ let all_products = [
     }, 
     {
         id: 33,
-        name: "Placeholder 1",
+        name: "Placeholder 33",
         category: "women",
         image: w14_img,
         new_price: 46.00,
