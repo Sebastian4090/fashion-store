@@ -22,7 +22,7 @@ const StoreCategory = (props) => {
             </div>
                 <div className="store-category-indexSort">
                     <p>
-                        <span>Showing 1-12</span> out of 33 products  {/* sort using reduce method?*/}
+                        <span>Showing 1-12</span> out of {all_products.reduce((acc, _) => acc + 1, 0)} products
                     </p>
                     <div className="store-category-sort">
                         Sort by <img src={dropdownIcon} alt="dropdown" />
@@ -36,6 +36,9 @@ const StoreCategory = (props) => {
                             return null;
                         }
                     })}
+                </div>
+                <div className="store-category-loadMore">
+                    Explore more
                 </div>
         </div>
     );

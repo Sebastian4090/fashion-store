@@ -8,8 +8,8 @@ import Cart from '../Pages/Cart';
 import Login from '../Pages/Login';
 import Footer from '../Components/footer/Footer';
 import menBanner from '../Components/assets/banners/bannerMen_img.png';
-// import womenBanner from '../Components/assets/banners/bannerWomen_img.png';
-// import kidsBanner from '../Components/assets/banners/bannerKids_img.png';
+import womenBanner from '../Components/assets/banners/bannerWomen_img.png';
+import kidsBanner from '../Components/assets/banners/bannerKids_img.png';
 
 function App() {
 
@@ -20,8 +20,8 @@ function App() {
         <Routes>
             <Route path='/' element={<Store/>}/>
             <Route path='/men' element={<ShopCategory banner={menBanner} text="For Men" category="men"/>}/>
-            <Route path='/women' element={<ShopCategory banner='' text="For Women"category="women"/>}/>
-            <Route path='/kids' element={<ShopCategory banner='' text="For Kids" category="kids"/>}/>
+            <Route path='/women' element={<ShopCategory banner={womenBanner} text="For Women"category="women"/>}/>
+            <Route path='/kids' element={<ShopCategory banner={kidsBanner} text="For Kids" category="kids"/>}/>
             <Route path='/product' element={<Product/>}>
               <Route path=':productId' element={<Product/>}/>
             </Route>
