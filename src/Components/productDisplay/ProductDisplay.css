@@ -1,0 +1,135 @@
+@keyframes hover_redButton{
+    from {color: white;}
+    to {color: #1c1c1c;}
+}
+
+.product-display{
+    display: flex;
+    margin: 0px 170px;
+    margin-bottom: 20vh;
+}
+
+.product-display-left{
+    display: flex;
+    gap: 17px;
+}
+
+.product-display-imgList{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.product-display-imgList img{
+    height: 163px;
+}
+
+.product-display-imgMain{
+    width: auto;
+    height: 700px;
+}
+
+.product-display-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-display-right h1{
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.product-display-rightStars{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.product-display-rightStars img{
+    width: 3vh;
+}
+
+.product-display-rightPrices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.product-display-rightPriceOld{
+    color: #818181;
+    text-decoration: line-through;
+}
+
+/* .product-display-rightPriceNew{
+} */
+
+.product-display-rightDiscount{
+    color: #ff4141;
+}
+
+.product-display-rightSize h1{
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-display-rightSizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.product-display-rightSizes div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-display-rightSizes div:hover{
+    border-color: #919191;
+}
+
+.product-display-rightSizes div:active{
+    background: #dfdfdf;
+}
+
+.product-display-right button{
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.product-display-right button:hover{
+    animation-name: hover_redButton;
+    animation-duration: 0.5s;
+    color: #1c1c1c;
+}
+
+.product-display-right button:active{
+    background: #cf3535;
+}
+
+.product-display-rightCategory{
+    margin-top: 10px;
+}
+
+.product-display-rightCategory span{
+    font-weight: 600;
+}

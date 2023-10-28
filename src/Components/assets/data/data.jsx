@@ -5,29 +5,29 @@ import p4_img from './photos/p4_img.jpg';
 
 let data_product = [
     {
-        id: 1,
-        name: "Placeholder 1",
+        id: 30,
+        name: "Placeholder 30",
         image: p1_img,
         new_price: 46.00,
         old_price: 92.00
     },
     {
-        id: 2,
-        name: "Placeholder 2",
+        id: 31,
+        name: "Placeholder 31",
         image: p2_img,
         new_price: 50.00,
         old_price: 104.00
     },
     {
-        id: 3,
-        name: "Placeholder 3",
+        id: 32,
+        name: "Placeholder 32",
         image: p3_img,
         new_price: 30.00,
         old_price: 42.00
     },
     {
-        id: 4,
-        name: "Placeholder 4",
+        id: 33,
+        name: "Placeholder 33",
         image: p4_img,
         new_price: 66.50,
         old_price: 82.00
