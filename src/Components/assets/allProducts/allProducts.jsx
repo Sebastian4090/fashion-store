@@ -86,7 +86,7 @@ let all_products = [
         name: "Placeholder 6",
         category: "men",
         image: m1_img,
-        new_price: 46.00,
+        new_price: 92.00,
         old_price: 92.00
     }, 
     {

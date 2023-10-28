@@ -1,4 +1,4 @@
-.popular{
+.relatedProducts{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,26 +6,22 @@
     height: 90vh;
 }
 
-.popular h1{
+.relatedProducts h1{
     color: #171717;
     font-size: 50px;
     font-weight: 600;
 }
 
-.popular hr{
-    width: 400px;
+.relatedProducts hr{
+    width: 200px;
     height: 6px;
     border-radius: 10px;
     background: #252525;
 }
 
-.popular-item{
+.relatedProducts-item{
     margin-top: 50px;
     display: flex;
-    gap: 40px;
-}
-
-.popular-item img{
-    border: 1px solid #7BE1DD;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    gap: 30px;
+    
 }
