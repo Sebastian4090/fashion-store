@@ -1,60 +1,90 @@
-.offers{
-    width: 65%;
-    height: 60vh;
+.offers {
+    width: 80%;
+    min-height: 60vh;
     display: flex;
     margin: auto;
-    padding: 0px 140px;
-    margin-bottom: 150px;
+    padding: 0 5%;
+    margin-bottom: 10vh;
     background: linear-gradient(180deg, #7BE1DD 0%, #e1ffea22 60%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.offers:hover{
+    transition: transform 0.5s;
+  }
+  
+  .offers:hover {
     transform: scale(1.05);
-    transition: 0.5s;
-}
-
-.offers-left {
+  }
+  
+  .offers-left {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-}
-
-.offers-left h1{
+  }
+  
+  .offers-left h1 {
     color: #171717;
-    font-size: 80px;
+    font-size: 4vh;
     font-weight: 600;
-}
-
-.offers-left p{
+  }
+  
+  .offers-left p {
     color: #171717;
-    font-size: 22px;
+    font-size: 1.1em;
     font-weight: 600;
-}
-
-.offers-left button{
-    width: 282px;
-    height: 70px;
-    border-radius: 35px;
+  }
+  
+  .offers-left button {
+    width: 30%;
+    height: 7vh;
+    border-radius: 50vh;
     background: #ff4141;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 2vh;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 3vh;
     cursor: pointer;
-}
-
-.offers-right{
+  }
+  
+  .offers-right {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-top: 50px;
-}
-
-.offers-right img{
-    padding-bottom: 10px;
-}
+    padding-top: 5vh;
+  }
+  
+  .offers-right img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1vh;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .offers {
+      width: 95%;
+      min-height: 40vh;
+      padding: 0 5%;
+      margin-bottom: 5vh;
+    }
+  
+    .offers-left h1 {
+      font-size: 3vh;
+    }
+  
+    .offers-left p {
+      font-size: 1em;
+    }
+  
+    .offers-left button {
+      width: 50%;
+      height: 6vh;
+      font-size: 1.5vh;
+      margin-top: 2vh;
+    }
+  
+    .offers-right {
+      padding-top: 2vh;
+    }
+  }
+  
