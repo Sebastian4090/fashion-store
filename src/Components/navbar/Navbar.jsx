@@ -1,13 +1,16 @@
 import './Navbar.css';
 import logo from '../assets/logo.png';
 import cart_icon from '../assets/cart_icon.png';
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { StoreContext } from '../../Context/StoreContext';
 
 const Navbar = () => {
 
     const [menu, setMenu] = useState('shop');
     const [hover, setHover] = useState('');
+    const { getTotalCartItems } = useContext(StoreContext);
+
     return ( 
         <div className='navbar'>
             <div className='nav-logo'>
@@ -32,9 +35,9 @@ const Navbar = () => {
                     <Link style={{ textDecoration: 'none'}}  to='/kids'>For Kids</Link>{menu==="kids"||hover==='kidsH'?<hr/>:<></>}</li>
             </ul>
             <div className='nav-login-cart'>
-                <Link to='/login'><button onClick={()=>setMenu('shop')}>Login</button></Link>
+                <Link to='/sign-up'><button onClick={()=>setMenu('shop')}>Sign Up</button></Link>
                 <Link to='/cart'><img src={cart_icon} alt="cart"/></Link>
-                <div className="nav-cart-count">0</div>
+                {getTotalCartItems() > 0 ? <div className="nav-cart-count">{getTotalCartItems()}</div> : ''}
             </div>
         </div>
      );

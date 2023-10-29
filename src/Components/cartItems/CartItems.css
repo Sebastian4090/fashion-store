@@ -1,3 +1,8 @@
+@keyframes hover_redButton{
+    from {color: white;}
+    to {color: #1c1c1c;}
+}
+
 .cartItems{
     margin: 100px 170px;
 }
@@ -70,6 +75,16 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.cartItems-total button:hover{
+    animation-name: hover_redButton;
+    animation-duration: 0.5s;
+    color: #1c1c1c;
+}
+
+.cartItems-total button:active{
+    background: #cf3535;
 }
 
 .cartItems-promocode{
