@@ -2,10 +2,10 @@ import './CSS/Login.css';
 
 const Login = () => {
     return ( 
-        <div className="loginReg">
-            <div className="loginReg-container">
+        <div className="login">
+            <div className="login-container">
                 <h1>Login</h1>
-                <div className="loginReg-fields">
+                <div className="login-fields">
                     <input type="email" placeholder="Email Address" />
                     <input type="password" placeholder="Password" />
                 </div>
