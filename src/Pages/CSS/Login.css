@@ -1,91 +1,96 @@
-@keyframes hover_redButton{
-    from {color: white;}
-    to {color: #1c1c1c;}
-}
-
-.loginReg{
+@keyframes hover_redButton {
+    from { color: white; }
+    to { color: #1c1c1c; }
+  }
+  
+  .login {
     width: 100%;
     height: 63vh;
     background: #cdfaf8;
-    padding-top: 100px;
+    padding-top: 10vh;
     margin-bottom: 5%;
-}
-
-.loginReg-container{
+  }
+  
+  .login-container {
     width: 580px;
     height: 45vh;
     background: white;
     margin: auto;
-    padding: 40px 60px;
-}
-
-.loginReg-container h1{
-    margin: 20px 0px;
-}
-
-.loginReg-fields{
+    padding: 4vh 6vh;
+  }
+  
+  .login-container h1 {
+    margin: 2vh 0;
+  }
+  
+  .login-fields {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.loginReg-fields input{
-    height: 72px;
+    gap: 3vh;
+    margin-top: 3vh;
+  }
+  
+  .login-fields input {
+    height: 8vh;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 2vh;
     border: 1px solid #c9c9c9;
     outline: none;
     color: #5c5c5c;
-    font-size: 18px;
-}
-
-.loginReg-container button{
-    width: 604px;
-    height: 72px;
+    font-size: 2vh;
+  }
+  
+  .login-container button {
+    width: 104%;
+    height: 8vh;
     color: white;
     background: #ff4141;
-    margin-top: 30px;
+    margin-top: 3vh;
     border: none;
-    font-size: 24px;
+    font-size: 2.4vh;
     font-weight: 500;
     cursor: pointer;
-}
-
-.loginReg-container button:hover{
+  }
+  
+  .login-container button:hover {
     animation-name: hover_redButton;
     animation-duration: 0.5s;
     color: #1c1c1c;
-}
-
-.loginReg-container button:active{
+  }
+  
+  .login-container button:active {
     background: #cf3535;
-}
-
-.loginReg-login{
-    margin-top: 20px;
-    color: #5c5c5c;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.loginReg-login span{
-    color: #ff4141;
-    font-weight: 600;
-    cursor: pointer;
-    padding-left: 1%;
-}
-
-.loginReg-login span:hover{
-    text-decoration: underline;
-}
-
-.loginReg-agree{
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
-    gap: 20px;
-    color: #5c5c5c;
-    font-size: 18px;
-    font-weight: 500;
-}
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .login-container {
+      width: 90%;
+      height: auto;
+      padding: 4vh;
+    }
+  
+    .login-fields input {
+      height: 6vh;
+    }
+  
+    .login-container button {
+      width: 103%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 3vh;
+    }
+  
+    .login-fields input {
+      height: 5vh;
+      width: 95%;
+    }
+  
+    .login-container button {
+      width: 100%;
+    }
+  }
+  
