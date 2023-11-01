@@ -8,6 +8,7 @@
   }
   
   .footer-logo {
+    margin-top: 5%;
     display: flex;
     align-items: center;
     gap: 2vh;
@@ -60,3 +61,19 @@
     background: #c7c7c7;
   }
   
+@media (max-width: 768px) {
+  .footer {
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .footer-logo img{
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    font-size: 12px;
+    gap: 10px;
+    margin-left: -35px;
+  }
+}
