@@ -26,7 +26,6 @@
   .newsletter div {
     background: white;
     width: 39vw;
-    max-width: 40vw;
     border-radius: 8vh;
     border: 1px solid #e3e3e3;
     padding-left: 1vh;
@@ -63,6 +62,22 @@
     .newsletter div button {
       width: 15vw;
     }
+  }
+
+  @media screen and (max-width: 480px) {
+    .newsletter div button {
+      width: 90px;
+      margin-left: 4.7px;
+    }
+
+    .newsletter input {
+      width: 50%;
+    }
+
+    .newsletter div {
+      width: 240px;
+    }
+
   }
 
   @media screen and (max-width: 1680px) and (min-width: 768px) {

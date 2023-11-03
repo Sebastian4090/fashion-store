@@ -53,15 +53,14 @@
   
   @media screen and (max-width: 480px) {
     .new-collections h1 {
-      font-size: 2.5vh;
+      font-size: 4vh;
     }
   
     .new-collections hr {
-      width: 80%;
+      width: 20%;
     }
   
     .collections {
       grid-template-columns: repeat(auto-fit, minmax(60%, 1fr)); /* Further adjusted column width */
     }
   }
-  
