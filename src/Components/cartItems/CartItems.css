@@ -124,7 +124,6 @@
     cursor: pointer;
 }
 
-/* Media Queries for Smaller Screens */
 @media (max-width: 768px) {
     .cartItems {
       margin: 30px 10px;
@@ -171,6 +170,7 @@
     .cartItems-promocode {
       font-size: 14px;
       margin-left: -150%;
+      height: 20%;
     }
   
     .cartItems-promocode p {
@@ -178,6 +178,8 @@
     }
   
     .cartItems-promobox {
+      display: flex;
+      flex-direction: row;
       max-width: 205px;
       height: 34px;
     }
@@ -192,7 +194,15 @@
       max-width: 80px;
       height: 34px;
       font-size: 12px;
-      margin-left: 210px;
-      margin-top: -10%;
     }
+
+    .cartItems-total button:hover{
+      animation-name: hover_redButton;
+      animation-duration: 0.5s;
+      color: #1c1c1c;
+  }
+  
+  .cartItems-total button:active{
+      background: #cf3535;
+  }
   }

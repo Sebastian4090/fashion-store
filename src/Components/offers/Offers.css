@@ -88,3 +88,14 @@
     }
   }
   
+  @media screen and (max-width: 480px) {
+    .offers {
+      width: 83%;
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+
+    .offers-left button {
+      width: 80%;
+    }
+  }
