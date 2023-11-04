@@ -11,7 +11,7 @@ const StoreCategory = (props) => {
         <div className="store-category">
             <div className="store-category-banner">
                 <div className="store-category-left">
-                    <h2>EXPLORE OUR COLLECTION</h2>
+                    <h2>EXPLORE OUR COLLECTION {props.name}</h2>
                     <div>
                         <p>{props.text}</p>
                     </div>
