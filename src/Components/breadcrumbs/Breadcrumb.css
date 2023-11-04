@@ -14,4 +14,11 @@
       margin: 40px 10px;
     }
   }
+
+  @media screen and (max-width: 480px) {
+    .breadcrumb {
+      font-size: 12px;
+      gap: 0px;
+    }
+  }
   
