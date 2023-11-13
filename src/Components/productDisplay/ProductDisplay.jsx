@@ -8,6 +8,7 @@ import { StoreContext } from '../../Context/StoreContext';
 const ProductDisplay = (props) => {
     const { product } = props;
     const { addToCart } = useContext(StoreContext);
+    const sProduct = products.find((p) => p.id === match.params.id);
 
     return ( 
         <div className="product-display">
